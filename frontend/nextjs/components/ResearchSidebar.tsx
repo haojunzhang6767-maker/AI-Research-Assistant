@@ -96,7 +96,7 @@ const ResearchSidebar: React.FC<ResearchSidebarProps> = ({
         style={{
           '--sidebar-width': 'min(300px, 85vw)',
           '--sidebar-min-width': '12px'
-        } as React.CSSProperties}
+        } as React.ComponentProps<typeof motion.div>['style']}
       >
         {/* Sidebar content */}
         <div 
